@@ -1,5 +1,5 @@
 
 # VitBault
 
-Sitio web de criptomonedas
+Landing page para una web enfocada en criptomonedas
 
