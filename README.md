@@ -1,5 +1,5 @@
 
 # VitBault
 
-Landing page para una web enfocada en criptomonedass
+Esta es una Landing Page para un sitio web de Criptomonedas
 
