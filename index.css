@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* Codigo css de la barra de navegacion */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,12 +9,18 @@
     font-family: "Inter", sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 .navigation-bar {
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    width: 90%;
+    justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 100px;
+    align-self: center;
 }
 
 .navigation-bar .logo-container{
@@ -43,4 +50,42 @@
     text-decoration: none;
     color: white;
     padding: 10px;
+}
+
+/* Codigo css de la hero section */
+.hero-section{
+    display: flex;
+    width: 90%;
+    align-self: center;
+}
+
+.hero-section .hero-info{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+}
+
+.hero-section .hero-info h1{
+    color: #FF6900;
+    font-size: 60px;
+}
+
+.hero-section .hero-info p{
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.hero-section .hero-feature-cards-container{
+    display: flex;
+    gap: 40px;
+}
+
+.hero-section .hero-feature-cards-container .feature-card{
+    color: white;
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
