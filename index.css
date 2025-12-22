@@ -89,3 +89,51 @@ body{
     gap: 15px;
     align-items: center;
 }
+
+/* Cards css */
+.card-container{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: white;
+    border-width: 0.5px;
+    width: 250px;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card-container .card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header .bitcoin-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.bitcoin-info p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.bitcoin-info span{
+    color: white;
+    opacity: 0.5;
+}
+
+.stock-price-info{
+    display: flex;
+}
+
+.stock-price-info p{
+    color: greenyellow;
+}
+.card-container h3{
+    color: #FF6900;
+    font-size: 30px;
+}
+.card-container span{
+    color: white;
+    opacity: 0.5;
+}
