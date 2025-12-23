@@ -91,13 +91,21 @@ body{
 }
 
 /* Cards css */
+.card-section-container{
+    display: grid;
+    width: 90%;
+    /* grid-template-rows: repeat(4, 1fr); */
+    grid-template-columns: repeat(4, 1fr);
+    align-self: center;
+    gap: 10px;
+}
+
 .card-container{
     display: flex;
     flex-direction: column;
     border: solid;
     border-color: white;
     border-width: 0.5px;
-    width: 250px;
     gap: 10px;
     padding: 10px;
     border-radius: 10px;
