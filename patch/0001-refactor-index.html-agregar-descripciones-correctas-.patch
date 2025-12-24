@@ -1,0 +1,77 @@
+From bc2bdc38696c1ea9bfe870268640aa44fa6b581c Mon Sep 17 00:00:00 2001
+From: lpmvdev7 <lpmvdev7@gmail.com>
+Date: Wed, 24 Dec 2025 16:48:25 -0600
+Subject: [PATCH] refactor(index.html): agregar descripciones correctas a card
+
+Crear descripcion correcta para cada card con la siguiente informacion:
+	- Nombre de la moneda bitcoin
+	- Fluctuacion diaria
+	- Precio actual
+	- Volumen de unidades disponibles
+---
+ index.html | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+diff --git a/index.html b/index.html
+index 032a049..51405a9 100644
+--- a/index.html
++++ b/index.html
+@@ -76,43 +76,43 @@
+              <div class="card-container">
+                 <header class="card-header">
+                     <aside class="bitcoin-info">
+-                        <p>BTC</p>
+-                        <span>Bitcoin</span>
++                        <p>ETH</p>
++                        <span>Ethereum</span>
+                     </aside>
+                     <aside class="stock-price-info">
+                         <img src="" alt="">
+-                        <p>+2.45%</p>
++                        <p>-1.23%</p>
+                     </aside>
+                 </header>
+-                <h3>$67,234.5</h3>
++                <h3>$2,834.22</h3>
+                 <span>Volume: 28.5B</span>
+              </div>
+              <div class="card-container">
+                 <header class="card-header">
+                     <aside class="bitcoin-info">
+-                        <p>BTC</p>
+-                        <span>Bitcoin</span>
++                        <p>BNB</p>
++                        <span>Binance Coin</span>
+                     </aside>
+                     <aside class="stock-price-info">
+                         <img src="" alt="">
+-                        <p>+2.45%</p>
++                        <p>+0.87%</p>
+                     </aside>
+                 </header>
+-                <h3>$67,234.5</h3>
++                <h3>$598.45</h3>
+                 <span>Volume: 28.5B</span>
+              </div>
+              <div class="card-container">
+                 <header class="card-header">
+                     <aside class="bitcoin-info">
+-                        <p>BTC</p>
+-                        <span>Bitcoin</span>
++                        <p>SOL</p>
++                        <span>Solana</span>
+                     </aside>
+                     <aside class="stock-price-info">
+                         <img src="" alt="">
+-                        <p>+2.45%</p>
++                        <p>+5.67%</p>
+                     </aside>
+                 </header>
+-                <h3>$67,234.5</h3>
++                <h3>$178.93</h3>
+                 <span>Volume: 28.5B</span>
+              </div>
+       </section>
+-- 
+2.43.0
+
